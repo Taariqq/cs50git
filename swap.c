@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 6bc7b905b72930412032d9e865766f0365f07798
 #include <stdio.h>
 
 int main(void)
@@ -9,6 +14,12 @@ int main(void)
     printf("y is %i\n", y);
     
     // swapping...
+<<<<<<< HEAD
+=======
+    int temp = x;
+    x = y;
+    y = temp;
+>>>>>>> 6bc7b905b72930412032d9e865766f0365f07798
 
     
     printf("x is now %i\n", x);
