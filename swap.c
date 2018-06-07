@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+void swap(int *a, int *b)
+{
+  int temp = *a;
+  *a = *b;
+  *b = temp;
+
+}
+
 int main(void)
 {
     int x = 34;
@@ -9,9 +17,7 @@ int main(void)
     printf("y is %i\n", y);
     
     // swapping...
-    int temp = x;
-    x = y;
-    y = temp;
+    swap(&x, &y);
 
     
     printf("x is now %i\n", x);
